@@ -5,7 +5,7 @@ import { handleError, handleSuccess } from '../../utils.js';
 import './login.css';
 
 function Login() {
-    const [loginInfo, setLoginInfo] = useState({
+    const [loginInfo,setLoginInfo] = useState({
         email: '',
         password: ''
     });
@@ -40,9 +40,12 @@ function Login() {
                 handleSuccess(message);
                 localStorage.setItem('token', jwtToken);
                 localStorage.setItem('loggedInUser', name);
+
+                // Navigate without refreshing page
                 setTimeout(() => {
-                   window.location.href = "http://localhost:3001"; 
+                   navigate('/home');   // 👈 change route here
                 }, 1000);
+
             } else if (error) {
                 const details = error?.details[0]?.message;
                 handleError(details);
@@ -70,8 +73,8 @@ function Login() {
 
                 {/* Right Side Form */}
                 <div className="col-md-6 d-flex flex-column justify-content-center px-5">
-                    <div className="login-card  bg-white">
-                        <h2 className="fw-bold mb-3 ">Welcome Back</h2>
+                    <div className="login-card bg-white">
+                        <h2 className="fw-bold mb-3">Welcome Back</h2>
                         <p className="text-muted mb-4">Login to continue</p>
 
                         <form onSubmit={handleLogin}>
