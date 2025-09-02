@@ -1,0 +1,91 @@
+/* Global reset */
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff; /* full white background */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Container */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #ffffff;
+  padding: 2rem 1rem;
+}
+
+/* Image small above/near form */
+.signup-image {
+  width: 600px;   /* small logo size */
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Signup form (no border, no shadow) */
+.signup-card {
+  background: #ffffff;
+  padding: 2rem 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Title */
+.signup-card h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #212529;
+}
+
+/* Subtitle */
+.signup-card p {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+
+/* Input */
+.signup-card .form-control {
+  width: 100%;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Button */
+.signup-card .btn-primary {
+  background: #4f75ff;
+  border: none;
+  color: white;
+  padding: 0.9rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.signup-card .btn-primary:hover {
+  background: #3d5fd1;
+}
+
+/* Bottom link */
+.signup-card .mt-3 {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.signup-card .mt-3 a {
+  color: #4f75ff;
+  text-decoration: none;
+}
+
+.signup-card .mt-3 a:hover {
+  text-decoration: underline;
+}

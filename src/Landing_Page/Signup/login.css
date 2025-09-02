@@ -1,0 +1,119 @@
+:root {
+  --primary-blue: #4f75ff;
+  --primary-blue-hover: #3c5fd6;
+  --gray-100: #f9fafb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-800: #1f2937;
+  --white: #ffffff;
+}
+
+/* Full container */
+.login-container {
+  display: flex;
+  height: 100vh;
+  background: var(--white);
+}
+
+/* Left side image */
+.login-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray-100);
+}
+
+.login-left img {
+  max-width: 80%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+/* Right side form */
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 380px;
+}
+
+/* Headings */
+.login-card h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--gray-800);
+}
+
+.login-card p {
+  color: var(--gray-400);
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+/* Input fields */
+.login-card .form-control {
+  width: 100%;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--gray-300);
+  background: var(--white);
+  color: var(--gray-800);
+  margin-bottom: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.login-card .form-control:focus {
+  outline: none;
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 2px rgba(79, 117, 255, 0.15);
+}
+
+.login-card .form-control::placeholder {
+  color: var(--gray-400);
+  font-size: 0.9rem;
+}
+
+/* Button */
+.login-card .btn-primary {
+  background: var(--primary-blue);
+  border: none;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.75rem;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.login-card .btn-primary:hover {
+  background: var(--primary-blue-hover);
+}
+
+/* Bottom link */
+.login-card span {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--gray-400);
+}
+
+.login-card span a {
+  color: var(--primary-blue);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.login-card span a:hover {
+  text-decoration: underline;
+}
