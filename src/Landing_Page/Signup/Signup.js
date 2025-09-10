@@ -61,11 +61,8 @@ function Signup() {
 
                 {/* Left side image */}
                 <div className="col-md-6 d-flex justify-content-center align-items-center">
-                    <img
-                        src="/media/image/signup.png"
-                        alt="Signup Visual"
-                        className="img-fluid signup-image"
-                    />
+                           <img src="media/image/homeHero.png" alt="Hero" className="mb-5" />
+
                 </div>
 
                 {/* Right side form */}
