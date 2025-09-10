@@ -5,7 +5,7 @@ function Awards() {
         <div className='container mt-5'>
             <div className='row'>
                 <div className='col-6 p-5'>
-                    <img src='/media/image/largestBroker.svg' alt='Largest'/>
+                    <img src='/media/Image/largestBroker.svg' alt='Largest'/>
                 </div>
                 
                 <div className='col-6 p-5'>
@@ -40,7 +40,7 @@ function Awards() {
                 </li>
             </ul>
             </div>
-                 <img src='/media/image/pressLogos.png' alt='PressLogo' style={{width:"90%"}}/>
+                 <img src='/media/Image/pressLogos.png' alt='PressLogo' style={{width:"90%"}}/>
     </div>
 </div>
 
