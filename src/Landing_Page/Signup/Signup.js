@@ -59,7 +59,7 @@ function Signup() {
         {/* Left image */}
         <div className="col-md-6 d-flex justify-content-center align-items-center bg-light">
           <img
-         src="/media/image/signup.png" alt="Signup Visual"  // ✅ Must be in public/media/image/
+         src="media/image/signup.png" alt="Signup Visual"  // ✅ Must be in public/media/image/
            // alt="Signup Visual"
             className="img-fluid signup-image"
           />
