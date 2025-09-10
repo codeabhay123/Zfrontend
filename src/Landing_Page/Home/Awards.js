@@ -5,7 +5,7 @@ function Awards() {
         <div className='container mt-5'>
             <div className='row'>
                 <div className='col-6 p-5'>
-                    <img src='/media/Image/largestBroker.svg' alt='Largest'/>
+                    <img src='https://zerodha.com/static/images/ecosystem.png' alt='Largest'/>
                 </div>
                 
                 <div className='col-6 p-5'>
