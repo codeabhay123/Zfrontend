@@ -10,7 +10,7 @@ function ProductsPage() {
       <Hero />
 
       <LeftSection
-        imageURL="media/image/kite.png"
+        imageURL="/media/image/kite.png"
         productName="Kite"
         productDescription={
           <>
@@ -26,7 +26,7 @@ function ProductsPage() {
       />
 
       <RightSection
-        imageURL="media/image/console.png"
+        imageURL="/media/image/console.png"
         productName="Console"
         productDescription={
           <>
@@ -40,7 +40,7 @@ function ProductsPage() {
       />
 
       <LeftSection
-        imageURL="media/image/coin.png"
+        imageURL="/media/image/coin.png"
         productName="Coin"
         productDescription={
           <>
@@ -56,7 +56,7 @@ function ProductsPage() {
       />
 
       <RightSection
-        imageURL="media/image/kiteconnect.png"
+        imageURL="/media/image/kiteconnect.png"
         productName="Kite Connect API"
         productDescription={
           <>
@@ -70,7 +70,7 @@ function ProductsPage() {
       />
 
       <LeftSection
-        imageURL="media/image/varsity.png"
+        imageURL="/media/image/varsity.png"
         productName="Varsity mobile"
         productDescription={
           <>
@@ -85,7 +85,7 @@ function ProductsPage() {
         appStore=""
       />
 
-      <p className="text-center mt-5 mb-5">
+      <p className="/text-center mt-5 mb-5">
         Want to know more about our technology stack? Check out the Zerodha.tech blog.
       </p>
 
