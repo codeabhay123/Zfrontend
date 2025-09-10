@@ -61,7 +61,7 @@ function Signup() {
           <img
          src="media/image/signup.png" alt="Signup Visual"  // ✅ Must be in public/media/image/
            // alt="Signup Visual"
-            className="img-fluid signup-image"
+           // className="img-fluid signup-image"
           />
         </div>
 
